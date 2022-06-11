@@ -1,0 +1,12 @@
+{
+    "_comment": "browser sync to configure lite-server web server to know about where required directories and folders of projects are",
+    "server": {
+      "baseDir": [
+        "./src",
+        "./build/contracts"
+      ],
+      "routes": {
+        "/vendor": "./node_modules"
+      }
+    }
+  }
